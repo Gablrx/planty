@@ -9,3 +9,34 @@ Version: 1.0.0
 License: GNU General Public License v2 or later
 License URL: https://www.gnu.org/licenses/gpl-2.0.html
 */
+
+figure.wp-block-image:nth-child(2) {
+  margin: 0px -202px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  z-index: 5;
+  padding-bottom: 60px;
+  margin-bottom: 0px !important;
+}
+div.wp-block-group:nth-child(1) {
+  margin-bottom: 0px !important;
+}
+
+ .footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer{
+	margin-top:0px;
+}
+
+
+.wpforms-submit-container{
+	display:flex;
+	justify-content:center;
+}
+.wpforms-submit-container .contact-form-btn{
+	background-color:#E0B9B4 !important;
+	width:198px;
+	height:55px;
+	margin-top:-15px !important;
+}
+.wpforms-submit-container .contact-form-btn:hover{
+	background-color:#C02E44 !important;
+}

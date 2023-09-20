@@ -32,7 +32,7 @@
 	wp_body_open();
 	?>
 
-	<header id="site-header" class="header-footer-group">
+	<header id="site-header" class="header-footer-group sticky-top">
 
 		<div class="header-inner section-inner">
 
@@ -91,9 +91,6 @@
 
 						<ul class="primary-menu reset-list-style">
 
-							<?php if (is_user_logged_in()) : ?>
-								<li><a target="blank" href="<?php echo admin_url(); ?>">Admin</a></li>
-							<?php endif; ?>
 
 							<?php
 							if (has_nav_menu('primary')) {

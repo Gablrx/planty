@@ -1,0 +1,58 @@
+/* Import de la font Syne depuis Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Syne:wght@400;500;600;700;800&display=swap");
+
+body * {
+  font-family: "Syne" !important;
+}
+
+/************************************ HEADER **********************************/
+#site-header.sticky-top {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: #ffffff;
+}
+
+#site-header img.custom-logo {
+  width: 201px;
+  height: 19px;
+}
+
+.header-inner {
+  padding: 0px;
+  margin-right: 0px;
+}
+
+.header-navigation-wrapper li {
+  padding: 22px;
+}
+.header-navigation-wrapper li a {
+  color: black !important;
+}
+
+/* BTN COMMANDER : */
+.menu-item-200 {
+  padding: 22px 45px !important;
+  background-color: #dc9f96;
+}
+
+.header-navigation-wrapper li:last-of-type a {
+  color: #ffffff !important;
+}
+
+/************************************* FOOTER ***********************************/
+.footer-top {
+  border-bottom: none;
+  justify-content: center;
+  padding: 25px;
+}
+.footer-top a {
+  color: black !important;
+  font-size: 16px;
+}
+
+/* Remove PAGE TITLE */
+/* .entry-title {
+  display: none;
+}
+ */
