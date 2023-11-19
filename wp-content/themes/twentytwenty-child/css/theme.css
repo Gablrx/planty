@@ -25,20 +25,40 @@ body * {
 
 .header-navigation-wrapper li {
   padding: 22px;
+	cursor:pointer;
+}
+
+.header-navigation-wrapper li a:hover {
+  text-decoration: none;
 }
 .header-navigation-wrapper li a {
   color: black !important;
 }
 
+span.toggle-text:nth-child(2){
+	display:none;
+}
+#site-header
 /* BTN COMMANDER : */
 .menu-item-200 {
   padding: 22px 45px !important;
   background-color: #dc9f96;
 }
+.menu-item-200:hover {
+  
+  background-color: #C02E44;
+}
 
 .header-navigation-wrapper li:last-of-type a {
   color: #ffffff !important;
 }
+@media (max-width: 999px) { 
+	#site-header{
+	padding:15px 0px;
+	}
+	svg.svg-icon:nth-child(1){
+		color:#D2776A;
+	}}
 
 /************************************* FOOTER ***********************************/
 .footer-top {

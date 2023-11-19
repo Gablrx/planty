@@ -26,17 +26,37 @@ div.wp-block-group:nth-child(1) {
 	margin-top:0px;
 }
 
+/** FORMULAIRE NOUS CONTACTER **/
 
-.wpforms-submit-container{
-	display:flex;
-	justify-content:center;
+.nous-contacter-form input, .nous-contacter-form textarea{
+	margin: 10px 0px 20px 0px;
+    border-radius:5px;
 }
-.wpforms-submit-container .contact-form-btn{
+
+.nous-contacter-form .wpcf7-submit{
 	background-color:#E0B9B4 !important;
 	width:198px;
 	height:55px;
 	margin-top:-15px !important;
+	border-radius:5px;
+	text-transform:none;
 }
-.wpforms-submit-container .contact-form-btn:hover{
+.nous-contacter-form .wpcf7-submit:hover{
 	background-color:#C02E44 !important;
+	text-decoration:none;
 }
+
+.nous-contacter-form .submit-container{
+	display:flex;
+	justify-content:center;
+	margin-top:25px;
+	margin-left:65px;
+}
+
+
+/** FORMULAIRE COMMANDER **/
+
+
+
+
+
