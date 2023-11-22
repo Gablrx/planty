@@ -71,8 +71,224 @@ span.toggle-text:nth-child(2){
   font-size: 16px;
 }
 
-/* Remove PAGE TITLE */
-/* .entry-title {
-  display: none;
+figure.wp-block-image:nth-child(2) {
+  margin: 0px -202px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  z-index: 5;
+  padding-bottom: 60px;
+  margin-bottom: 0px !important;
 }
- */
+div.wp-block-group:nth-child(1) {
+  margin-bottom: 0px !important;
+}
+
+ .footer-top-visible .footer-nav-widgets-wrapper, .footer-top-hidden #site-footer{
+	margin-top:0px;
+}
+
+
+/** FORMULAIRE NOUS CONTACTER **/
+
+.nous-contacter-form input, .nous-contacter-form textarea{
+	margin: 10px 0px 20px 0px;
+    border-radius:5px;
+}
+
+.nous-contacter-form .wpcf7-submit{
+	background-color:#E0B9B4 !important;
+	width:198px;
+	height:55px;
+	margin-top:-15px !important;
+	border-radius:5px;
+	text-transform:none;
+}
+.nous-contacter-form .wpcf7-submit:hover{
+	background-color:#C02E44 !important;
+	text-decoration:none;
+}
+
+.nous-contacter-form .submit-container{
+	display:flex;
+	justify-content:center;
+	margin-top:25px;
+	margin-left:65px;
+}
+
+
+
+
+/***************************** FORMULAIRE DE COMMANDE ***************************/
+
+.commander-formulaire, .informations-livraison{
+	color:white;
+	padding:0px;
+}
+
+.votre-commande{
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+}
+
+.votre-commande h4{
+	padding-left:45px;
+}
+ .choix-saveur{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.informations-livraison{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.separator{
+	border-left: 1px solid white;
+}
+.informations, .livraison{
+	margin:30px;
+}
+
+.choix{
+	margin:15px 10px;
+	width:255px;
+		flex-wrap:wrap;
+}
+ .bg-fraise{
+    background-image: url('http://localhost/planty/wp-content/uploads/2023/08/jeremy-bezanger-0QgbyZdhX7k-unsplash-1.png');
+}
+
+ .bg-pamplemousse{
+    background-image: url('http://localhost/planty/wp-content/uploads/2023/08/estudio-bloom-tOitjphtIXU-unsplash-1.png');
+}
+
+ .bg-framboise{
+    background-image: url('http://localhost/planty/wp-content/uploads/2023/08/rodion-kutsaev-4k8xEFW4_3Q-unsplash-1.png');
+}
+
+ .bg-citron{
+    background-image: url('http://localhost/planty/wp-content/uploads/2023/08/estudio-bloom-ezqnxsqUZ80-unsplash-1.png') ;
+}
+
+.bg-fraise,.bg-pamplemousse,.bg-framboise,.bg-citron {
+    background-repeat: no-repeat;
+    background-position:center;
+	 background-size:cover;
+    width:100%;
+	height:165px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	 color: white;
+}
+
+.choix-saveur label{
+	font-size:20px;
+	font-weight:800;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:10px;
+}
+
+.quantity-input-container {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 40%;
+  
+}
+.quantity-field button{
+	width:55%;
+	background-color:#E0B9B4;
+	border-radius: 5px;
+}
+
+.quantity-input-container input {
+	width: 70%;
+  border: none;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.quantity-field{
+	display:flex;
+	justify-content:space-between;
+	
+}
+
+.quantity-controls {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #dad0ce;
+  width: 30%;
+	background-color:#DC9F96;
+}
+
+.quantity-control {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.plus {
+  border-bottom:1px solid white;
+}
+
+.ok-button:hover{
+	background-color:#C02E44;
+	text-decoration:none;
+}
+
+
+.informations-livraison label{
+	font-size:20px;
+	
+}
+.informations-livraison input{
+	margin:10px 0px 25px 0px;
+	border-radius:5px;
+	
+}
+
+.informations-livraison h4{
+	margin-top:10px;
+}
+
+.submitBtn{
+	display:flex;
+	justify-content:center;
+	margin:50px 0px 50px 70px;
+}
+.submitBtn .wpcf7-submit{
+	background-color:#E0B9B4;
+	 border-radius: 5px;
+	text-transform: none;
+	
+}
+
+.submitBtn .wpcf7-submit:hover{
+	background-color:#C02E44; 
+	text-decoration:none;
+}
+
+
+@media (max-width: 1000px) {
+.separator{
+	border-left: none;
+}
+}
+/*FIN FORMULAIRE DE COMMANDE */
